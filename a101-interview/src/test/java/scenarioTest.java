@@ -25,7 +25,7 @@ public class scenarioTest {
 
     @Before
     public void setUp(){
-        System.setProperty("webdriver.chrome.driver","driverFolder/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","driver/chromedriver.exe");
         driver=new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://www.a101.com.tr/");
