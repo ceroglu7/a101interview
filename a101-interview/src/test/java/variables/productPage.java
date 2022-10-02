@@ -1,4 +1,4 @@
-package Variables;
+package variables;
 
 public class productPage {
     public String imgColorVerificationInProductPage="body > section > section.page-product.js-product-container.js-product-init > div.container > div.content > div > div.row > div.col-sm-9 > div.row > div:nth-child(2) > div > div.variants-bar > div > div.variants-color.js-variant-slider.slick-initialized.slick-slider > div > div > div.slick-slide.slick-current.slick-active > div > a > img";

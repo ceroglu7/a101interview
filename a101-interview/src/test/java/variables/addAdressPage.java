@@ -1,4 +1,4 @@
-package Variables;
+package variables;
 
 public class addAdressPage {
     public String areaAddNewAdressSelector="body > section > section > div > div.checkout-addresses.js-tab-content.active > div > div.col-sm-9 > div > div.addresses > div.list > ul:nth-child(3) > li > a";

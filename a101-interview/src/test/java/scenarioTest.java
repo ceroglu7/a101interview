@@ -4,30 +4,24 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import Variables.addAdressPage;
-import Variables.choosingKneeSocks;
-import Variables.productPage;
-import Variables.productContinuou;
-import Variables.payingPage;
-import Variables.homePage;
-
+import variables.addAdressPage;
+import variables.choosingKneeSocks;
+import variables.productPage;
+import variables.productContinue;
+import variables.payingPage;
+import variables.homePage;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-
 public class scenarioTest {
     protected WebDriver driver;
     addAdressPage addadresspage=new addAdressPage();
-    productContinuou productcontinuou=new productContinuou();
+    productContinue productcontinue=new productContinue();
     productPage productpage= new productPage();
     choosingKneeSocks choosingkneesocks= new choosingKneeSocks();
     payingPage payingpage=new payingPage();
     homePage homepage=new homePage();
-
-
-
-
 
     @Before
     public void setUp(){
@@ -37,18 +31,16 @@ public class scenarioTest {
         driver.get("https://www.a101.com.tr/");
     }
 
-
-
     @Test
     public void scenario() throws InterruptedException{
         homePage();
-        kadinIcGiyim();
-        dizaltiCorap();
+        womenUnderWear();
+        kneeSocks();
         productPage();
-        continuou();
+        continueCart();
         adressAdd();
         carGo();
-        payIng();
+        payingVerification();
     }
     public static String randomPhoneNumber (){
         Random randI = new Random();
@@ -65,18 +57,18 @@ public class scenarioTest {
         driver.findElement(By.partialLinkText("İç Giyim")).click();
         Thread.sleep( 2000);
     }
-    public void kadinIcGiyim() throws InterruptedException{
+    public void womenUnderWear() throws InterruptedException{
         driver.findElement(By.partialLinkText("Dizaltı")).click();
         Thread.sleep( 2000);
     }
-    public void dizaltiCorap() throws InterruptedException{
+    public void kneeSocks() throws InterruptedException{
         driver.findElement(By.cssSelector(choosingkneesocks.checkboxBlackSelectionSelector)).click();
         Thread.sleep(2000);
         List<WebElement> col = driver.findElements(By.cssSelector(choosingkneesocks.filteredBlackProductsSelector));
         ArrayList lastList=new ArrayList();
         for (var a:col) {
             if (a.getText().toLowerCase().contains("tükendi"))
-                break;
+                continue;
             lastList.add(a.getText());
         }
         int productCount = lastList.size();
@@ -94,13 +86,13 @@ public class scenarioTest {
         driver.findElement(By.cssSelector(productpage.buttonShowBasketSelector)).click();
         Thread.sleep(2000);
     }
-    public void continuou() throws InterruptedException{
-        driver.findElement(By.cssSelector(productcontinuou.buttonApproveBasketSelector)).click();
+    public void continueCart() throws InterruptedException{
+        driver.findElement(By.cssSelector(productcontinue.buttonApproveBasketSelector)).click();
         Thread.sleep(2000);
-        driver.findElement(By.cssSelector(productcontinuou.buttonContiniouWithoutSignInSelector)).click();
+        driver.findElement(By.cssSelector(productcontinue.buttonContiniouWithoutSignInSelector)).click();
         Thread.sleep(2000);
-        driver.findElement(By.cssSelector(productcontinuou.textboxEmailSelector)).sendKeys(productcontinuou.myEmail);
-        driver.findElement(By.cssSelector(productcontinuou.buttonEmailContiniouSelector)).click();
+        driver.findElement(By.cssSelector(productcontinue.textboxEmailSelector)).sendKeys(productcontinue.myEmail);
+        driver.findElement(By.cssSelector(productcontinue.buttonEmailContiniouSelector)).click();
         Thread.sleep(2000);
     }
     public void adressAdd() throws InterruptedException{
@@ -150,7 +142,7 @@ public class scenarioTest {
         Thread.sleep(2000);
         driver.findElement(By.cssSelector(payingpage.buttonCargoContinuou)).click();
     }
-    public void payIng() {
+    public void payingVerification() {
         if(driver.getPageSource().contains("Masterpass"))
         {
             System.out.println("Başarılı: Ödeme ekranı doğrulandı");
