@@ -1,6 +1,6 @@
 # a101interview
 
-:grey_question:<b> Neleri Kullandım?</b>
+<b>Neleri Kullandım</b>:grey_question:
 
 | & | & |
 | --- | --- |
