@@ -2,6 +2,7 @@
 
 <b>Neleri Kullandım?</b>
 
+| & | & |
 | --- | --- |
 | Dil | Java |
 | Framework | Maven - JUnit |
