@@ -3,11 +3,11 @@
 <b>Neleri Kullandım?</b>
 
 |   | Neleri Kullandım? |
-| --- | --- | --- |
+| --- | --- |
 | Dil | Java |
-| Framework | JUnit |
+| Framework | Maven - JUnit |
 | Driver | Chrome Driver |
-| IDE | IntelliJ IDEA Community Edition |
+| IDE | IntelliJ IDEA Community |
 
 <b>Akış</b>
 
