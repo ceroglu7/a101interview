@@ -20,7 +20,7 @@ Patika.dev & A101 Test Automation Practicum'a kabul için verilen case'i tamamla
 
 <b>Kullandığım Bazı Metodlar</b>
 
-- Mevcut ürün sayfasından liste oluşturma ve tükenen ürünlerin eklenmediği yeni bir listeye aktarma.<br>
+- Mevcut ürünleri içeren listeden stokta olmayan ürünleri eleyerek yeni bir liste oluşturma ve bu listeden rastgele bir ürüne tıklama.<br>
 - ListBox'tan rastgele il-ilçe-mahalle seçimi.<br>
 - Rastgele telefon numarası üretimi.<br>
 
