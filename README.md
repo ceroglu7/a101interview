@@ -6,16 +6,16 @@ Dil: Java<br>
 Framework: JUnit<br>
 IDE: IntelliJ IDEA Community Edition<br>
 
+<b>Akış</b>
+
+a101.com.tr -> Bayan İç Giyim -> Dizaltı Çorap -> Siyah Filtrelemesi ->
+Tükenen Ürünleri Liste Dışı Bırakarak Oluşturulan Listeden Random Bir Ürüne Tıklayarak Sepete Ekleme ->
+Üyeliksiz Şekilde Ödeme Ekranına Gitme -> Ödeme Ekranında Olunduğunu Doğrulama.<br>
 
 <b>Ne yaptım?</b>
 
 Patika.dev & A101 Test Automation Practicum'a kabul için verilen case'i tamamladığım proje.
 
-<b>Akış</b>
-
-a101.com.tr -> Bayan İç Giyim -> Dizaltı Çorap -> Siyah Filtrelemesi ->
-Tükenen Ürünleri Liste Dışı Bırakarak Oluşturulan Listeden Random Bir Ürüne Tıklayarak Sepete Ekleme ->
-Üyeliksiz Şekilde Ödeme Ekranına Gitme -> Ödeme Ekranında Olunduğunu Doğrulama.
 
 <b>Kullandığım Bazı Metodlar</b>
 
