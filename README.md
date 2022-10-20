@@ -1,6 +1,6 @@
 # a101interview
 
-<b>Neleri Kullandım?</b>
+:grey_question:<b> Neleri Kullandım?</b>
 
 | & | & |
 | --- | --- |
@@ -9,7 +9,7 @@
 | Driver | Chrome Driver |
 | IDE | IntelliJ IDEA Community |
 
-<b>Akış</b>
+:leftwards_arrow_with_hook:<b> Akış</b>
 
 - Chrome tarayıcısı açılarak a101.com.tr adresine gidilir.
 - Anasayfa'dan Bayan İç Giyim -> Dizaltı Çorap seçilir ve listelenen ürünler için Siyah Ürün Filtrelemesi yapılır.
@@ -20,6 +20,6 @@
 - Seçilen şehre gönderim yapan anlaşmalı kargo firmarlarından random olarak birisi seçilir.
 - Ödeme ekranına gidilir ve ödeme ekranına ulaşıldığı doğrulanır.
 
-<b>Ekran Kaydı</b>
+:arrow_forward:<b> Ekran Kaydı</b>
 <br><br>
 https://user-images.githubusercontent.com/56219769/196941449-18888941-92b6-4ed4-b433-aaaf37454523.mp4
