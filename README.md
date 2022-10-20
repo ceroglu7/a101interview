@@ -21,5 +21,5 @@
 - Ödeme ekranına gidilir ve ödeme ekranına ulaşıldığı doğrulanır.
 
 <b>Ekran Kaydı</b>
-
-Uploading 3478011953.mp4…
+<br>
+https://user-images.githubusercontent.com/56219769/196941449-18888941-92b6-4ed4-b433-aaaf37454523.mp4
