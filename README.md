@@ -9,7 +9,7 @@ IDE: IntelliJ IDEA Community Edition<br>
 
 <b>Ne yaptım?</b>
 
-Patika&A101 Test Automation Practicum'a kabul için verilen case'i tamamladığım proje.
+Patika.dev & A101 Test Automation Practicum'a kabul için verilen case'i tamamladığım proje.
 
 <b>Akış</b>
 
