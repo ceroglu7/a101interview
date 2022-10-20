@@ -17,4 +17,5 @@
 - Ürün sepete eklenir.
 - Mail adresi girilerek üyeliksiz devam edilir.
 - Adres bilgileri, random il-ilçe-mahalle-telefon numarası belirlenerek girilir ve adres kaydedilir.
+- Seçilen şehre gönderim yapan anlaşmalı kargo firmarlarından random olarak birisi seçilir.
 - Ödeme ekranına gidilir ve ödeme ekranına ulaşıldığı doğrulanır.
