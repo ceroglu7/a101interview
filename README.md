@@ -11,7 +11,10 @@
 
 <b>Akış</b>
 
-madde madde akış
-a101.com.tr -> Bayan İç Giyim -> Dizaltı Çorap -> Siyah Filtrelemesi ->
-Stoğu Mevcut Ürünlerden Random Bir Ürüne Tıklayarak Sepete Ekleme ->
-Üyeliksiz Şekilde Ödeme Ekranına Gitme -> Ödeme Ekranında Olunduğunu Doğrulama.<br>
+- Chrome tarayıcısı açılarak a101.com.tr adresine gidilir.
+- Bayan İç Giyim -> Dizaltı Çorap seçilir ve listelenen ürünler için Siyah Ürün Filtrelemesi yapılır.
+- Filtrelenen ürünlerden stokta olmayanlar liste dışı bırakılmak suretiyle yeni bir liste oluşturulur ve bu listeden random olarak bir ürüne tıklanır.
+- Ürün sepete eklenir.
+- Mail adresi girilerek üyeliksiz devam edilir.
+- Adres bilgileri, random il-ilçe-mahalle-telefon numarası belirlenerek girilir ve adres kaydedilir.
+- Ödeme ekranına gidilir ve ödeme ekranına ulaşıldığı doğrulanır.
