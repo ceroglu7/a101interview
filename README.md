@@ -12,7 +12,7 @@
 <b>Akış</b>
 
 - Chrome tarayıcısı açılarak a101.com.tr adresine gidilir.
-- Bayan İç Giyim -> Dizaltı Çorap seçilir ve listelenen ürünler için Siyah Ürün Filtrelemesi yapılır.
+- Anasayfa'dan Bayan İç Giyim -> Dizaltı Çorap seçilir ve listelenen ürünler için Siyah Ürün Filtrelemesi yapılır.
 - Filtrelenen ürünlerden stokta olmayanlar liste dışı bırakılmak suretiyle yeni bir liste oluşturulur ve bu listeden random olarak bir ürüne tıklanır.
 - Ürün sepete eklenir.
 - Mail adresi girilerek üyeliksiz devam edilir.
