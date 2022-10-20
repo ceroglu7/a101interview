@@ -4,8 +4,8 @@
 
 Dil: Java<br>
 Framework: JUnit<br>
-IDE: IntelliJ IDEA Community Edition<br>
 Driver: Chrome Driver<br>
+IDE: IntelliJ IDEA Community Edition<br>
 
 <b>Akış</b>
 
