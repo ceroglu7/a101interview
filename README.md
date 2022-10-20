@@ -10,7 +10,7 @@ IDE: IntelliJ IDEA Community Edition<br>
 <b>Akış</b>
 
 a101.com.tr -> Bayan İç Giyim -> Dizaltı Çorap -> Siyah Filtrelemesi ->
-Tükenen Ürünleri Liste Dışı Bırakarak Oluşturulan Listeden Random Bir Ürüne Tıklayarak Sepete Ekleme ->
+Stoğu Mevcut Ürünlerden Random Bir Ürüne Tıklayarak Sepete Ekleme ->
 Üyeliksiz Şekilde Ödeme Ekranına Gitme -> Ödeme Ekranında Olunduğunu Doğrulama.<br>
 
 <b>Ne İçin?</b>
