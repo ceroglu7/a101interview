@@ -5,6 +5,7 @@
 Dil: Java<br>
 Framework: JUnit<br>
 IDE: IntelliJ IDEA Community Edition<br>
+Driver: Chrome Driver<br>
 
 <b>Akış</b>
 
